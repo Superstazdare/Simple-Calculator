@@ -16,13 +16,15 @@
 .calculator {
     background: #426286;
     padding: 20px;
+    width: 300px;
+    height: 400px;
     border-radius: 10px;
 }
 .calculator form input {
     border: 0;
     outline: 0;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     cursor: pointer;
     color: #a83c3c;
@@ -44,11 +46,11 @@ form .display {
 form .display input {
     text-align: right;
     flex: 1;
-    font-size: 40px;
+    font-size: 25px;
 }
 form input.equal {
-    width: 148px;
-    height: 60px;
+    width: 105px;
+    height: 40px;
     background: #a83c3c;
     color: #e2e9f1;
 }
